@@ -1,0 +1,3 @@
+#define MAX_ISLAND 500
+#define MAX_ISLAND_OBJ 2000
+

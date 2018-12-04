@@ -1,0 +1,35 @@
+enum userinfo
+{
+    ORM:_orm,
+    _name[80],
+	_uid,
+	_pass[128],
+	_motto[256],
+	_mottocolor,
+	_skin,
+	_interior,
+	_world,
+	Float:_x,
+	Float:_y,
+	Float:_z,
+	Float:_a,
+	_location,
+	_cash,
+	_bank,
+	_moneybag,
+	_gid,
+	_rank,
+	_color,
+	_saycolor,
+	_kill,
+	_death,
+	_admin,
+	_level,
+	_exp,
+	_qb,
+	_choose,
+	_logindialog,
+	_gaming
+}
+new pdate[MAX_PLAYERS][userinfo];
+
